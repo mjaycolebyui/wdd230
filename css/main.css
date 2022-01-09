@@ -13,7 +13,6 @@ header {
     grid-column: 1/6;
 
     display: grid;
-    grid-template-columns: 2;
 
     background-color: lightseagreen;
     border-radius: 15px;
