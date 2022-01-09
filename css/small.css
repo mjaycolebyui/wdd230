@@ -1,7 +1,9 @@
 @media (max-width: 32.4em)
 {
-    h1, h2, p, li {
-        font-size: smaller;
+
+
+    h1, h2 {
+        font-size: 18px;
     }
 
     body {
@@ -9,7 +11,7 @@
     }
 
     header img {
-        width: 50px;
-        height: 60px;
+        width: 60px;
+        height: 70px;
     }
 }
