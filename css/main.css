@@ -58,25 +58,25 @@ main h1 {
     margin-left: 15px;
 
     text-shadow: 0px 2px 2px gray;
-    color: lightgray; 
+    color: black; 
 }
 
 .lesson-links {
     grid-row: 2/9;
-    border-bottom: 2px solid lightgray;
-    border-top: 2px solid lightgray;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
 
 }
 
 .lesson-links ul li {
-    color: lightgray;
+    color: black;
     text-shadow: 0px 2px 2px gray;
 
     margin: 10px 0;
 }
 
 main h6 {
-    color: lightgray;
+    color: black;
     font-size: 14px;
     margin-left: 15px;;
 }
@@ -85,7 +85,34 @@ footer {
     grid-row: 5/6;
     grid-column: 1/6;
 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 20px);
+    justify-content: center;
+    align-content: center;
+
     background-color: lightseagreen;
     border-radius: 15px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+footer p {
+    color: black;
+}
+
+
+.copyright {
+    grid-column: 1/6;
+    grid-row: 1;
+
+    justify-self: center;
+    margin-top: -15px;
+}
+
+#timestamp {
+    grid-column: 1/6;
+    grid-row: 2;
+
+    justify-self: center;
+    margin-top: -15px;
 }

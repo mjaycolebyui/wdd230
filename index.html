@@ -40,10 +40,13 @@
         </main>
 
         <footer>
-            <p>
+            <p class="copyright">
                 &copy 2022 Michael Coleman Utah
             </p>
-            
+            <p id="timestamp"></p>
+            <script>
+                document.getElementById("timestamp").innerHTML = String("Last updated: ") + String(new Date())
+            </script>
         </footer>
     </body>
 </html>
