@@ -85,8 +85,10 @@ main p {
 }
 
 footer {
-    grid-row: 5/6;
+    grid-row: 5;
     grid-column: 1/6;
+
+    height: 75px;
 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -109,7 +111,6 @@ footer p {
     grid-row: 1;
 
     justify-self: center;
-    margin-top: -15px;
 }
 
 #timestamp {
@@ -117,7 +118,6 @@ footer p {
     grid-row: 2;
 
     justify-self: center;
-    margin-top: -15px;
 
     color: yellow;
 }
