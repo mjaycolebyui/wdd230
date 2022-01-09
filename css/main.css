@@ -68,7 +68,10 @@ main h2 {
     grid-row: 2/9;
     border-bottom: 2px solid gray;
     border-top: 2px solid gray;
+}
 
+.lesson-links ul {
+    margin-top: 35px;
 }
 
 .lesson-links ul li {
