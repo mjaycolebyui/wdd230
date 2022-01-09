@@ -1,12 +1,10 @@
 @media (min-width: 32.5em)
 {
-
     body {
         grid-template-columns: repeat(5, 75px);
     }
     header img {
         width: 75px;
         height: 85px;
-    }
-    
+    }    
 }
