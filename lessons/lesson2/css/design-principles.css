@@ -36,6 +36,16 @@
     }
 }
 
+h1, h2, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 11.5pt;
+    font-weight: bold;
+}
+
 header {
 
     margin: auto;
@@ -95,7 +105,7 @@ header h2 {
 .content-1 {
     padding: 10px;
 
-    color: #3a4958;
+    color: black;
 }
 
 .content-1 img {
@@ -137,7 +147,7 @@ header h2 {
 .content-2 {
     padding: 10px;
 
-    color: #3a4958;
+    color: black;
 }
 
 .content-2 img {
@@ -180,7 +190,7 @@ header h2 {
 .content-3 {
     padding: 10px;
 
-    color: #3a4958;
+    color: black;
 }
 
 .content-3 img {
