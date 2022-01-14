@@ -204,3 +204,8 @@ footer {
 
     text-align: center;
 }
+
+footer p {
+    padding-top: 7px;
+    display: block;
+}

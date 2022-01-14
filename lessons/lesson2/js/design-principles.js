@@ -1,0 +1,1 @@
+document.querySelector("#timestamp").innerHTML = String("&copy | ") + new Date().getFullYear() + String(" Michael Coleman |") + String(" Last Updated: ") + String(document.lastModified);
