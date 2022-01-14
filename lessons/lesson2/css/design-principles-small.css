@@ -1,0 +1,32 @@
+@media (max-width:39.9em) {
+    header {
+        height: 100px;
+        width: 400px;
+    }
+    .home-grid {
+        grid-template-columns: repeat(1, 300px);
+        grid-template-rows: repeat(3, 800px);
+    }
+    .column-1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .column-2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .column-3 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .content-3 img {
+        max-width: 290px;
+        max-height: 400px;
+    }
+
+    footer {
+        height: 30px;
+        width: 400px;
+    }    
+}
