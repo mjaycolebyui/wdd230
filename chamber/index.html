@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Chamber of Commerce site for Hooper, UT">
+
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+
+        <!--<link rel="stylesheet" href="css/normalize.css">-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans&family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">        <title>Site Plan</title>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Changa:wght@500&display=swap" rel="stylesheet">
+
+        <title>Michael Coleman's Website</title>
+    </head>
+
+    <body>
+        <script src="js/index.js"></script>
+        
+        <header>
+            <div class="header">
+                <img src="images/logo.jpg" alt="logo">
+
+                <h1>Hooper <br> Chamber of Commerce</h1>
+
+                <div class="social">
+                    <img src="images/facebook_logo.png" alt="Facebook Logo">
+                    <img src="images/youtube_logo.png" alt="YouTube Logo">
+                </div>
+
+                <div class="menu-icon">
+                    <button class="menu-button" onclick="openNav()"><img src="images/hamburer_icon.png" alt="Menu Icon"></button>
+                </div>
+                
+                <div class="current-date">
+                    <p id="current-date"></p>
+                    <script src="js/current_date.js"></script>
+                </div> 
+
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="index.html">DISCOVER</a></li>
+                        <li><a href="color-scheme.html">DIRECTORY</a></li>
+                        <li><a href="target-audience.html">JOIN</a></li>
+                        <li><a href="typography.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="home-grid">
+                <div class="hero">
+                    <h2>
+                        Hero with site name and call to action
+                    </h2>
+                </div>
+                <div class="event">
+                    <h2>
+                        Event
+                    </h2>
+                </div>
+                <div class="weather">
+                    <h2>
+                        Weather
+                    </h2>
+                </div>
+                <div class="news-release">
+                    <h2>
+                        New Release
+                    </h2>
+                </div>
+                <div class="join">
+                    <h2>
+                        Join
+                    </h2>
+                </div>
+                <div class="spotlights">
+                    <div class="spotlight-1">
+                        <h2>
+                            Spotlight 1
+                        </h2>
+                    </div>
+                    <div class="spotlight-2">
+                        <h2>
+                            Spotlight 2
+                        </h2>
+                    </div>
+                    <div class="spotlight-3">
+                        <h2>
+                            Spotlight 3
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <img src="images/logo.jpg" alt="logo">
+            <p>Contact: 888-111-2234</p>
+            <p>Hooper Chamber of Commerce</p>
+            <a href="https://www.google.com/maps/dir//Hooper,+UT/@41.1456716,-112.5635187,10z/data=!4m9!4m8!1m0!1m5!1m1!1s0x875310c53ed99d15:0xa0a20d39904a445f!2m2!1d-112.1224431!2d41.1638323!3e0">Location</a>
+            <p id="copyright"></p>
+            <br>
+            <p id="timestamp"></p>
+
+            <script src="js/index.js"></script>
+        </footer>
+    </body>
+</html>
