@@ -19,10 +19,15 @@
         <title>Michael Coleman's Website</title>
     </head>
 
-    <body>
+    <body onload="eventBanner()">
         <script src="js/index.js"></script>
         
         <header>
+            <div class="event-banner">
+                <h3>
+                    🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+                </h3>
+            </div>
             <div class="header">
                 <img src="images/logo.jpg" alt="logo">
 
@@ -44,6 +49,7 @@
 
                 <nav>
                     <ul class="navigation">
+                        <li><a href="index.html">HOME</a></li>
                         <li><a href="index.html">DISCOVER</a></li>
                         <li><a href="color-scheme.html">DIRECTORY</a></li>
                         <li><a href="target-audience.html">JOIN</a></li>
@@ -51,19 +57,32 @@
                     </ul>
                 </nav>
             </div>
+
         </header>
 
         <main>
             <div class="home-grid">
                 <div class="hero">
+                    <img src="images/country.jpg" alt="Image">
                     <h2>
-                        Hero with site name and call to action
+                        Welcome to Hooper
                     </h2>
+                    <section class="join-button">
+                        <button type="button">
+                            <h3>
+                                Join the Chamber!
+                            </h3>
+                        </button>
+                    </section>
                 </div>
                 <div class="event">
                     <h2>
-                        Event
+                        Annual Luncheon
                     </h2>
+                    <p>
+                        Join us for the Hooper Chamber of Commerce' annual luncheon at the Olive Garden on Wed, March 2nd
+                    </p>
+                    <a href="#">MORE INFO</a>
                 </div>
                 <div class="weather">
                     <h2>
@@ -74,26 +93,34 @@
                     <h2>
                         New Release
                     </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et ex at risus ornare ultrices sit amet ac enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nulla neque, aliquam at sem eu, vehicula imperdiet purus. Sed eu arcu non mi elementum ultricies id at leo. Sed luctus convallis nulla, quis bibendum ante posuere a. Morbi semper nisi id nibh volutpat convallis. Aenean sodales elit imperdiet erat aliquam, sed fringilla lorem accumsan. Duis et molestie tortor, condimentum blandit velit. Fusce a congue enim, a tristique eros. Mauris lectus urna, pellentesque vitae congue sit amet, condimentum in ligula.
+                    </p>
                 </div>
                 <div class="join">
-                    <h2>
-                        Join
-                    </h2>
+                    <button type="button">
+                        <h2>
+                            Join us!
+                        </h2>
+                    </button>
+                    <p>
+                        Discover how to join your Hooper Chamber of Commerce today!
+                    </p>
                 </div>
                 <div class="spotlights">
                     <div class="spotlight-1">
                         <h2>
-                            Spotlight 1
+                            Luke's Diner
                         </h2>
                     </div>
                     <div class="spotlight-2">
                         <h2>
-                            Spotlight 2
+                            The Independance Inn
                         </h2>
                     </div>
                     <div class="spotlight-3">
                         <h2>
-                            Spotlight 3
+                            Al's Pancake House
                         </h2>
                     </div>
                 </div>

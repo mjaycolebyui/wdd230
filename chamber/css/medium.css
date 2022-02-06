@@ -17,6 +17,7 @@
     }
     
     .header {
+        width: 100%;
         grid-template-rows: 100px 100px;
     }
     .header img {
@@ -44,7 +45,7 @@
     
     .home-grid {
         grid-template-columns: 1.5fr 1fr;
-        grid-template-rows: repeat(4, 200px);
+        grid-template-rows: 400px repeat(3, 200px);
     }
 
     .hero {
@@ -55,6 +56,10 @@
     .news-release { 
         grid-row: 2;
         grid-column: 1/3;
+    }
+
+    .news-release p {
+        font-size: 10pt;
     }
 
     .spotlights {
@@ -90,6 +95,7 @@
     .event {
         grid-row: 4;
         grid-column: 1/2;
+        line-height: 1em;
     }
 
     .weather {
