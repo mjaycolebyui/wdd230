@@ -29,7 +29,7 @@
                 </h3>
             </div>
             <div class="header">
-                <img src="images/logo.jpg" alt="logo">
+                <img src="images/logo.webp" alt="logo">
 
                 <h1>Hooper <br> Chamber of Commerce</h1>
 
@@ -63,7 +63,17 @@
         <main>
             <div class="home-grid">
                 <div class="hero">
-                    <img src="images/country.jpg" alt="Image">
+                    <picture>
+                        <source srcset="images/hero-reduced-large.jpg"
+                            media="(min-width: 75em)">
+                        <source srcset="images/hero-reduced-med.jpg"
+                            media="(min-width: 37.5em) and (max-width: 74.9em)">
+                        <source srcset="images/hero-reduced-small.jpg"
+                            media="(max-width: 37.4em)">
+
+                        <img src="images/hero-reduced-large.jpg" alt="Image">
+                    </picture>
+
                     <h2>
                         Welcome to Hooper
                     </h2>
@@ -88,6 +98,16 @@
                     <h2>
                         Weather
                     </h2>
+                    <p>
+                        Temperature: <span class="temp">36</span> F
+                    </p>
+                    <p>
+                        Wind speed: <span class="speed">5</span> mph
+                    </p>
+                    <p>
+                        Feels like: <span class="chill"></span>
+                    </p>
+                    <script src="js/windchill.js"></script>                    
                 </div>
                 <div class="news-release">
                     <h2>
@@ -126,6 +146,7 @@
                 </div>
             </div>
         </main>
+
 
         <footer>
             <img src="images/logo.jpg" alt="logo">
