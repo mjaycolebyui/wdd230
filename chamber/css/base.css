@@ -360,6 +360,13 @@ nav {
 /*#endregion Home Page*/
 
 /*#region Discover Page*/
+.last-visit {
+    background-color: var(--DarkBlue);
+    text-align: center;
+    width: 60%;
+    margin:0 auto;
+}
+
 .discover-grid {
     display: grid;
     margin-top: 50px;
