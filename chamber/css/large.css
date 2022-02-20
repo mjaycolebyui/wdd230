@@ -172,4 +172,151 @@
         margin: 10px;
         background-color:#046BB0;
     }
+
+    /*#region Discover Page*/
+    .last-visit {
+        background-color: var(--DarkBlue);
+        text-align: center;
+        width: 60%;
+        margin:0 auto;
+    }
+
+    .discover-grid {
+        display: grid;
+        margin-top: 50px;
+        margin-bottom:50px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 500px);
+        grid-gap: 25px;
+    }
+
+    .discover-grid img {
+        transition: .5s;
+    }
+
+    .discover-grid img:hover {
+        transform: scale(1.1);
+        transition: .5s;
+    }
+
+    .one {
+        grid-column: 1;
+        grid-row: 1;
+
+        text-align: center;
+
+        background-color: var(--DarkBlue);
+        padding: 10px;
+        border: 5px solid var(--LightBlue);
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .two {
+        grid-column: 2;
+        grid-row: 1;
+
+        text-align: center;
+
+        background-color: var(--DarkBlue);
+        padding: 10px;
+        border: 5px solid var(--LightBlue);
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+
+    .three {
+        grid-column: 3;
+        grid-row: 1;
+
+        text-align: center;
+
+        background-color: var(--DarkBlue);
+        padding: 10px;
+        border: 5px solid var(--LightBlue);
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+
+    .four {
+        grid-column: 1;
+        grid-row: 2;
+
+        text-align: center;
+
+        background-color: var(--DarkBlue);
+        padding: 10px;
+        border: 5px solid var(--LightBlue);
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .five {
+        grid-column: 2;
+        grid-row: 2;
+
+        text-align: center;
+
+        background-color: var(--DarkBlue);
+        padding: 10px;
+        border: 5px solid var(--LightBlue);
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .six {
+        grid-column: 3;
+        grid-row: 2;
+
+        text-align: center;
+
+        background-color: var(--DarkBlue);
+        padding: 10px;
+        border: 5px solid var(--LightBlue);
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .seven {
+        grid-column: 1;
+        grid-row: 3;
+
+        text-align: center;
+
+        background-color: var(--DarkBlue);
+        padding: 10px;
+        border: 5px solid var(--LightBlue);
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .eight {
+        grid-column: 2;
+        grid-row: 3;
+
+        text-align: center;
+
+        background-color: var(--DarkBlue);
+        padding: 10px;
+        border: 5px solid var(--LightBlue);
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .nine {
+        grid-column: 3;
+        grid-row: 3;
+
+        text-align: center;
+
+        background-color: var(--DarkBlue);
+        padding: 10px;
+        border: 5px solid var(--LightBlue);
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    /*#endregion Discover Page*/
 }
