@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Changa:wght@500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/tablebuild.css">
+
+    <title>Tables</title>
+</head>
+<body>
+    <div class="table-container">
+        <h1>ACME Wildwest</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Period</th>
+                    <th scope="col">Sales</th>
+                    <th scope="col">Sales Goal</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>August</th>
+                    <th>$3,590</th>
+                    <th>$4,000</th>
+                </tr>
+                <tr>
+                    <th>September</th>
+                    <th>$4,420</th>
+                    <th>$5,000</th>
+                </tr>
+                <tr>
+                    <th>October</th>
+                    <th>$4,870</th>
+                    <th>$5,000</th>
+                </tr>
+                <tr>
+                    <th>November</th>
+                    <th>$8,610</th>
+                    <th class="reached">$7,500</th>
+                </tr>
+                <tr>
+                    <th>Black Friday</th>
+                    <th colspan="2">$3,200</th>
+                </tr>
+                <tr>
+                    <th>December</th>
+                    <th>$6,820</th>
+                    <th>$7,500</th>
+                </tr>
+            </tbody>
+        
+            <tfoot>
+                
+            </tfoot>
+        </table>
+        <p id="timestamp">
+            Compiled
+        </p>
+    </div>
+
+    <script src="js/tablebuild.js"></script>
+</body>
+</html>
