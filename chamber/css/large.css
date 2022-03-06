@@ -409,6 +409,12 @@
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));
+        text-align: center;
+    }
+
+    .dir-card img {
+        align-self: center;
     }
 
     .dir-cards-hidden {
@@ -431,7 +437,6 @@
         background-color: var(--LightBlue);
         margin:20px;
         padding:15px;
-        max-height: 100px;
     }
 
     .dir-list-item {
