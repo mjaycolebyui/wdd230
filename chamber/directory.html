@@ -16,8 +16,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans&family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">        <title>Site Plan</title>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Changa:wght@500&display=swap" rel="stylesheet">
 
-        <script src="js/joinform.js"></script>
-
         <title>Join</title>
     </head>
 
@@ -63,64 +61,46 @@
         </header>
 
         <main>
-            <form action="thankyou.html" method="GET">
-                <div>
-                    <label for="firstname">First Name</label>
-                    <input type="text" name="firstname" id="firstname" required>
-                </div>
-                <div>
-                    <label for="lastname">Last Name</label>
-                    <input type="text" name="lastname" id="lastname" required>
-                </div>
-                <div>
-                    <label for="title">Title</label>
-                    <input type="text" name="title" id="title">
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required placeholder="johndoe@gmail.com">
-                </div>
-                <div>
-                    <label for="number">Number</label>
-                    <input type="tel" name="number" id="number" required>
-                </div>
-                <div>
-                    <label for="bizname">Business Name</label>
-                    <input type="text" name="bizname" id="bizname" required>
-                </div>
-                <div class="membership">
-                    <p>Membership Level</p>
-                    <div>
-                        <label for="np">Non Profit</label>
-                        <input type="radio" name="member" id="np" value="NP">
+            <div class="dir-buttons">
+                <button>Card View</button>
+                <button>List View</button>
+            </div>
+            <div class="directory-display">
+                <div class="dir-cards">
+                    <div class="dir-card">
+                        <h3>
+                            Business
+                        </h3>
                     </div>
-                    <div>
-                        <label for="bronze">Bronze</label>
-                        <input type="radio" name="member" id="bronze" value="Bronze">
+                    <div class="dir-card">
+                        <h3>
+                            Business
+                        </h3>
                     </div>
-                    <div>
-                        <label for="silver">Silver</label>
-                        <input type="radio" name="member" id="silver" value="Silver">
-                    </div>
-                    <div>
-                        <label for="gold">Gold</label>
-                        <input type="radio" name="member" id="gold" value="Gold" checked>
+                    <div class="dir-card">
+                        <h3>
+                            Business
+                        </h3>
                     </div>
                 </div>
-                <div class="description">
-                    <div class="description">
-                        <label for="description">Business Description</label>
+                <div class="dir-list">
+                    <div class="dir-list-item">
+                        <h3>
+                            Business
+                        </h3>
                     </div>
-                    <textarea type="textarea" name="description" id="description" maxlength="150"></textarea>
+                    <div class="dir-list-item">
+                        <h3>
+                            Business
+                        </h3>
+                    </div>
+                    <div class="dir-list-item">
+                        <h3>
+                            Business
+                        </h3>
+                    </div>
                 </div>
-                <div hidden class="submit-date">
-
-                </div>
-                <div class="buttons">
-                    <button type="reset">Clear</button>
-                    <button type="submit" onclick="submitForm()">Submit</button>    
-                </div>
-            </form>
+            </div>
         </main>
 
 
@@ -133,7 +113,7 @@
             <br>
             <p id="timestamp"></p>
 
-            <script src="js/index.js"></script>
+            <!--<script src="js/index.js"></script>-->
         </footer>
     </body>
 </html>

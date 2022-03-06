@@ -393,4 +393,52 @@
         padding: 100px;
     }
     /*#endregion Join Page*/
+
+    /*#region Directory Page*/
+    .dir-buttons {
+        margin: 20px;
+        text-align: center;
+    }
+    .directory-display {
+        display: flex;
+        margin: 20px;
+        background-color: var(--DarkBlue);
+    }
+
+    .dir-cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .dir-cards-hidden {
+        display: none;
+    }
+
+    .dir-list {
+        margin:auto;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+
+    .dir-list-hidden {
+        display: none;
+    }
+
+    .dir-card {
+        background-color: var(--LightBlue);
+        margin:20px;
+        padding:15px;
+        max-height: 100px;
+    }
+
+    .dir-list-item {
+        background-color: var(--LightBlue);
+        margin:20px;
+        padding:15px;
+        max-height: 100px;
+    }
+    /*#endregion Directory Page*/
 }
