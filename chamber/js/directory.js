@@ -1,12 +1,22 @@
 const requestURL = 'https://mjaycolebyui.github.io/wdd230/chamber/data/directory.json';
 var cardView = true;
 
-fetch (requestURL)
+fillData();
+if (window.innerWidth > 1200) {
+    fillData();
+}
+else {
+    toggleDisplay();
+}
+
+function fillData(){
+    fetch (requestURL)
     .then (function (response){
         return response.json();
     })
     .then (function (jsonObject){
-        const businesses = jsonObject['businesses'];     
+        const businesses = jsonObject['businesses'];  
+        console.log(window.innerWidth);   
         if (cardView){
             document.querySelector('.dir-cards').innerHTML = "";
             businesses.forEach(displayBusinessCard);
@@ -16,6 +26,7 @@ fetch (requestURL)
             businesses.forEach(displayBusinessList);
         }   
     })
+}
 
 function displayBusinessCard(business) {
     let cardParent = document.querySelector('.dir-cards');
@@ -52,22 +63,20 @@ function displayBusinessList(business) {
 
     //Create the new elements
     let newListItem = document.createElement('div');
-    let logo = document.createElement('img');
     let name = document.createElement('h3');
     let address = document.createElement('p');
     let phone = document.createElement('p');
     let website = document.createElement('p');
 
     //Set the values for the new elements
-    logo.src = business['image'];
     name.textContent = business['name'];
     address.textContent = business['address'];
     phone.textContent = business['phone'];
     website.textContent = business['website'];
+    website.setAttribute('class', 'dir-url');
 
     //Add them to the new card
     newListItem.setAttribute('class', 'dir-list-item');
-    newListItem.append(logo);
     newListItem.append(name);
     newListItem.append(address);
     newListItem.append(phone);
@@ -75,4 +84,22 @@ function displayBusinessList(business) {
 
     //Add the new card to the parent
     listParent.append(newListItem);
+}
+
+function toggleDisplay(newView) {
+    if (cardView == newView) {
+        return;
+    }
+
+    if (newView) {
+        document.querySelector('.dir-cards-hidden').setAttribute('class', 'dir-cards');
+        document.querySelector('.dir-list').setAttribute('class', 'dir-list-hidden');
+    }
+    else {
+        document.querySelector('.dir-list-hidden').setAttribute('class', 'dir-list');
+        document.querySelector('.dir-cards').setAttribute('class', 'dir-cards-hidden');
+    }
+
+    cardView = newView;
+    fillData();
 }

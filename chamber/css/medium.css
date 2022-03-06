@@ -266,4 +266,94 @@
     }
 
     /*#endregion Discover Page*/
+
+    /*#region Directory Page*/
+    .dir-buttons {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .dir-buttons button {
+        margin-top: 20px;
+        text-align: center;
+        background-color: var(--LightBlue);
+        color: white;
+        border-color: white;
+        border-radius: 20px;
+        font-family: 'Changa', sans-serif;
+        width:100px;
+        height: 50px;
+    }
+
+    .directory-display {
+        display: flex;
+        margin: 20px;
+    }
+
+    .dir-cards {
+        width: 100%;
+        background-color: var(--DarkBlue);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
+        text-align: center;
+    }
+
+    .dir-card img {
+        align-self: center;
+        max-width: 100%;
+    }
+
+    .dir-cards-hidden {
+        display: none;
+    }
+
+    .dir-card {
+        min-width: 100px;
+        background-color: var(--LightBlue);
+        margin:20px;
+        padding: 10px;
+    }
+
+    .dir-card p {
+        font-size: smaller;
+    }
+
+    .dir-list {
+        margin:auto;
+        background-color: var(--DarkBlue);
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dir-list-hidden {
+        display: none;
+    }
+
+    .dir-list-item {
+        background-color: var(--LightBlue);
+        margin:20px;
+        max-height: 100px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+        align-items: center;
+        text-align: center;
+    }
+
+    .dir-list-item .dir-url {
+        display: inline;
+        font-size: 6pt;
+        width: 50%;
+        overflow: hidden;
+    }
+
+    .dir-list-item h3 {
+        font-size: smaller;
+    }
+
+    .dir-list-item p {
+        font-size: small;
+    }
+    /*#endregion Directory Page*/
 }

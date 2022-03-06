@@ -399,51 +399,79 @@
         margin: 20px;
         text-align: center;
     }
+
+    .dir-buttons button {
+        margin-top: 20px;
+        text-align: center;
+        background-color: var(--LightBlue);
+        color: white;
+        border-color: white;
+        border-radius: 20px;
+        font-family: 'Changa', sans-serif;
+        width:100px;
+        height: 50px;
+    }
+
     .directory-display {
         display: flex;
         margin: 20px;
-        background-color: var(--DarkBlue);
     }
 
     .dir-cards {
         width: 100%;
+        background-color: var(--DarkBlue);
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
         text-align: center;
     }
 
     .dir-card img {
         align-self: center;
+        max-width: 100%;
     }
 
     .dir-cards-hidden {
         display: none;
     }
 
+    .dir-card {
+        min-width: 100px;
+        background-color: var(--LightBlue);
+        margin:20px;
+        padding: 10px;
+    }
+
+    .dir-card p {
+        font-size: smaller;
+    }
+
     .dir-list {
         margin:auto;
-        width: 50%;
+        background-color: var(--DarkBlue);
+        width: 80%;
         display: flex;
         flex-direction: column;
-        display: none;
     }
 
     .dir-list-hidden {
         display: none;
     }
 
-    .dir-card {
-        background-color: var(--LightBlue);
-        margin:20px;
-        padding:15px;
-    }
-
     .dir-list-item {
         background-color: var(--LightBlue);
         margin:20px;
-        padding:15px;
+        padding:10px;
         max-height: 100px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        align-items: center;
+        text-align: center;
+    }
+
+    .dir-list-item .dir-url {
+        display: inline;
+        font-size: 7pt;
     }
     /*#endregion Directory Page*/
 }
