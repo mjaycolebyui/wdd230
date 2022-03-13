@@ -138,6 +138,11 @@
         grid-column: 1;
     }
 
+    .weather img {
+        height: 100px;
+        width: 100px;
+    }
+
     .join {
         display: block;
         grid-row: 3;

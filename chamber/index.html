@@ -95,9 +95,16 @@
                     <a href="#">MORE INFO</a>
                 </div>
                 <div class="weather">
-                    <h2>
-                        Weather
-                    </h2>
+                    <div class="weather-header">
+                        <h2>
+                            Weather
+                        </h2>
+                        <img class="weather-icon" src="" alt="Weather Icon">
+                        <h2>
+                            <span class="condition">Windy</span>
+                        </h2>
+                    </div>
+
                     <p>
                         Temperature: <span class="temp">36</span> F
                     </p>
@@ -107,7 +114,6 @@
                     <p>
                         Feels like: <span class="chill"></span>
                     </p>
-                    <script src="js/windchill.js"></script>                    
                 </div>
                 <div class="news-release">
                     <h2>
@@ -158,6 +164,7 @@
             <p id="timestamp"></p>
 
             <script src="js/index.js"></script>
+            <script src="js/windchill.js"></script>                    
         </footer>
     </body>
 </html>
