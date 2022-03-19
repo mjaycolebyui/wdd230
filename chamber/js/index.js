@@ -1,5 +1,5 @@
-document.querySelector("#timestamp").innerHTML = String("Last updated: ") + String(document.lastModified);
-document.querySelector("#copyright").innerHTML = String("&copy ") + new Date().getFullYear() + String(" Michael Coleman    WDD 230 Project");
+document.querySelector("#timestamp").textContent = String("Last updated: ") + String(document.lastModified);
+document.querySelector("#copyright").textContent = String("&copy ") + new Date().getFullYear() + String(" Michael Coleman    WDD 230 Project");
 
 
 

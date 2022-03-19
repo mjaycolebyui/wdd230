@@ -10,7 +10,7 @@ else {
 }
 
 function getData(){
-    fetch (url)
+    fetch (requestURL)
     .then (function (response){
         return response.json();
     })
