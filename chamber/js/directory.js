@@ -1,16 +1,16 @@
 const requestURL = 'https://mjaycolebyui.github.io/wdd230/chamber/data/directory.json';
 var cardView = true;
 
-fillData();
+getData();
 if (window.innerWidth > 1200) {
-    fillData();
+    getData();
 }
 else {
     toggleDisplay();
 }
 
-function fillData(){
-    fetch (requestURL)
+function getData(){
+    fetch (url)
     .then (function (response){
         return response.json();
     })
@@ -101,5 +101,5 @@ function toggleDisplay(newView) {
     }
 
     cardView = newView;
-    fillData();
+    getData();
 }

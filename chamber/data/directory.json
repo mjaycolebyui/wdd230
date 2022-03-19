@@ -5,84 +5,96 @@
             "address": "5649 S 5900 W Hooper, UT 84315",
             "phone": "801-205-2763",
             "website": "https://www.b2byellowpages.com/company-information/103202556-aaa-stauffers-plumbing.html",
-            "image": "https://picsum.photos/300/200"
+            "image": "https://picsum.photos/300/200",
+            "tag": "Get your plumbing needs."
         },
         {
             "name": "Adair Joe",
             "address": "5779 S 5500 W Hooper, UT 84315",
             "phone": "801-985-3891",
             "website": "https://www.b2byellowpages.com/company-information/290757740-adair-joe.html",
-            "image": "https://picsum.photos/300/200"
+            "image": "https://picsum.photos/300/200",
+            "tag": "Feel right all the time."
         },
         {
             "name": "Blood Warmers",
             "address": "4867 S 6300 W Hooper, UT 84315",
             "phone": "801-668-9127",
             "website": "https://www.b2byellowpages.com/company-information/285328683-blood-warmers.html",
-            "image": "https://picsum.photos/300/200"
+            "image": "https://picsum.photos/300/200",
+            "tag": "Keep your body in tip-top shape."
         },
         {
             "name": "Kays Kiddie Care",
             "address": "5506 S 5900 W Hooper, UT 84315",
             "phone": "801-784-7678",
             "website": "https://www.b2byellowpages.com/company-information/097236722-kays-kiddie-care.html",
-            "image": "https://picsum.photos/300/200"
+            "image": "https://picsum.photos/300/200",
+            "tag": "Safe kids are happy kids."
         },
         {
             "name": "Kendrick Specialties",
             "address": "5139 S 5500 W Hooper, UT 84315",
             "phone": "801-985-4400",
             "website": "https://www.b2byellowpages.com/company-information/846202182-kendrick-specialties.html",
-            "image": "https://picsum.photos/300/200"
+            "image": "https://picsum.photos/300/200",
+            "tag": "All your workout equipement in one place."
         },
         {
-            "name": "Kendrick Specialties",
+            "name": "Luke's Diner",
             "address": "5139 S 5500 W Hooper, UT 84315",
             "phone": "801-985-4400",
             "website": "https://www.b2byellowpages.com/company-information/846202182-kendrick-specialties.html",
-            "image": "https://picsum.photos/300/200"
+            "image": "https://picsum.photos/300/200",
+            "tag": "Free waffles on Wednesdays."
         },
         {
-            "name": "Kendrick Specialties",
+            "name": "Independence Inn",
             "address": "5139 S 5500 W Hooper, UT 84315",
             "phone": "801-985-4400",
             "website": "https://www.b2byellowpages.com/company-information/846202182-kendrick-specialties.html",
-            "image": "https://picsum.photos/300/200"
+            "image": "https://picsum.photos/300/200",
+            "tag": "The only inn in town!"
         },
         {
-            "name": "Kendrick Specialties",
+            "name": "Al's Pancake House",
             "address": "5139 S 5500 W Hooper, UT 84315",
             "phone": "801-985-4400",
             "website": "https://www.b2byellowpages.com/company-information/846202182-kendrick-specialties.html",
-            "image": "https://picsum.photos/300/200"
+            "image": "https://picsum.photos/300/200",
+            "tag": "Free pancakes on Wednesdays - better than waffles."
         },
         {
-            "name": "Kendrick Specialties",
+            "name": "Coleman Furniture",
             "address": "5139 S 5500 W Hooper, UT 84315",
             "phone": "801-985-4400",
             "website": "https://www.b2byellowpages.com/company-information/846202182-kendrick-specialties.html",
-            "image": "https://picsum.photos/300/200"
+            "image": "https://picsum.photos/300/200",
+            "tag": "New, used, and repairs."
         },
         {
-            "name": "Kendrick Specialties",
+            "name": "Decor Market",
             "address": "5139 S 5500 W Hooper, UT 84315",
             "phone": "801-985-4400",
             "website": "https://www.b2byellowpages.com/company-information/846202182-kendrick-specialties.html",
-            "image": "https://picsum.photos/300/200"
+            "image": "https://picsum.photos/300/200",
+            "tag": "Get your house looking fly."
         },
         {
-            "name": "Kendrick Specialties",
+            "name": "Gator Chef",
             "address": "5139 S 5500 W Hooper, UT 84315",
             "phone": "801-985-4400",
             "website": "https://www.b2byellowpages.com/company-information/846202182-kendrick-specialties.html",
-            "image": "https://picsum.photos/300/200"
+            "image": "https://picsum.photos/300/200",
+            "tag": "Industrial cooking equipment at cheaper prices."
         },
         {
-            "name": "Kendrick Specialties",
+            "name": "Star Trek Wines",
             "address": "5139 S 5500 W Hooper, UT 84315",
             "phone": "801-985-4400",
             "website": "https://www.b2byellowpages.com/company-information/846202182-kendrick-specialties.html",
-            "image": "https://picsum.photos/300/200"
+            "image": "https://picsum.photos/300/200",
+            "tag": "Blue wines, orange wines, all wines."
         }
     ]
 }
