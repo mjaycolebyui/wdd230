@@ -701,6 +701,30 @@ form .description textarea {
     }
     /*#endregion Directory Page*/
 
+/*#region Contact Page*/
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin:auto;
+    margin-top:20px;
+    width:60%;
+    text-align: center;
+}
+
+.contact-info {
+    background-color: var(--DarkBlue);
+    padding:10px;
+}
+
+.contact-form {
+    background-color: var(--DarkBlue);
+    padding:10px;
+}
+
+/*#endregion Contact Page*/
+
+
 /*#region Footer*/
 footer {
     background-color: #053d63;
