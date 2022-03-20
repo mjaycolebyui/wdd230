@@ -76,7 +76,7 @@ main h2 {
 }
 
 .lesson-links {
-    grid-row: 2/9;
+    grid-row: 2/11;
     border-bottom: 2px solid lightgray;
     border-top: 2px solid lightgray;
 }
