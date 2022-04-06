@@ -309,6 +309,10 @@ main {
     padding: 15px;
 }
 
+.reception h3 {
+    font-size: var(--Large);
+}
+
 .suites { 
     width: 80%;
     margin:auto;
@@ -318,6 +322,15 @@ main {
     border-radius: 15px;
     height: 500px;
     padding: 15px;
+}
+
+.suites h3 {
+    font-size: var(--Large);
+}
+
+.suite-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 /*#endregion Services*/
 
