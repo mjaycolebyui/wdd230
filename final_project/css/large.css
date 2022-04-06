@@ -25,7 +25,7 @@ h1 {
     font-family: 'Dancing Script', cursive;
 }
 
-h2, h3, p, a {
+h2, h3, h4, p, a {
     color:var(--WhiteEgg);
     font-weight:bold;
     font-family: 'Vollkorn', sans-serif;
@@ -267,7 +267,10 @@ main {
 }
 
 .temple-page-list {
+    margin:auto;
     margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 25px;
@@ -276,11 +279,38 @@ main {
 .temple-page-listing {
     background-color: var(--DarkPurple);
     border-radius: 15px;
-    padding:15px;
+    padding:25px;
+    text-align: center;
+}
+
+.temple-page-listing h3 { 
+    text-align: center;
+}
+
+.like-button {
+    font-family: 'Vollkorn', sans-serif;
+    font-weight: bold;
+    background-color: var(--LightPurple);
+    border:none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.like-button:hover {
+    cursor: pointer;
 }
 
 .temple-page-listing img {
     max-width: 400px;
+    border-radius: 15px;
+}
+
+.temple-page-listing h4 {
+    font-size: var(--Medium-Small);
+}
+
+.temple-page-listing p {
+    font-size: small;
 }
 /*#endregion Temples*/
 
