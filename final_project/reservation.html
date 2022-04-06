@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
 
-    <title>Temple Inn and Suites - Home</title>
+    <title>Temple Inn and Suites - Reservation</title>
 </head>
 <body>
     <header>
@@ -31,7 +31,69 @@
     </header>
 
     <main>
-
+        <h2 class="reg-title">
+            Registration
+        </h2>
+        <div class="form">
+            <form method="GET">
+                <div>
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname" required>
+                </div>
+                <div>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" required>
+                </div>
+                <div>
+                    <label for="temp">Temple Location</label>
+                    <input type="text" name="temp" id="temp">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="johndoe@gmail.com">
+                </div>
+                <div>
+                    <label for="number">Number</label>
+                    <input type="tel" name="number" id="number" required>
+                </div>
+                <div>
+                    <label for="home">Home State or Country</label>
+                    <input type="text" name="home" id="home" required>
+                </div>
+                <div>
+                    <label for="num">Number of Rooms:</label>
+                    <input type="number" name="num" id="num" required>
+                </div>
+                <div class="room-type">
+                    <p>Room Type:</p>
+                    <div>
+                        <label for="cel">Celestial</label>
+                        <input type="radio" name="member" id="cel" value="cel">
+                    </div>
+                    <div>
+                        <label for="ter">Terrestrial</label>
+                        <input type="radio" name="member" id="ter" value="ter">
+                    </div>
+                    <div>
+                        <label for="tel">Telestial</label>
+                        <input type="radio" name="member" id="tel" value="tel">
+                    </div>
+                </div>
+                <div class="comments">
+                    <div class="comments">
+                        <label for="comments">Additional Comments</label>
+                    </div>
+                    <textarea type="textarea" name="comments" id="comments" maxlength="150"></textarea>
+                </div>
+                <div hidden class="submit-date">
+    
+                </div>
+                <div class="buttons">
+                    <button type="reset">Clear</button>
+                    <button type="submit" onclick="submitForm()">Submit</button>    
+                </div>
+            </form>
+        </div>
     </main>
 
     <footer>
@@ -55,5 +117,7 @@
                 </p>
             </div>
     </footer>
+
+    <script src="js/form.js"></script>
 </body>
 </html>

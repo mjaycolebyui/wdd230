@@ -25,9 +25,13 @@ h1 {
     font-family: 'Dancing Script', cursive;
 }
 
-h2, h3, h4, p, a {
+h2, h3, h4, p, a, label{
     color:var(--WhiteEgg);
     font-weight:bold;
+    font-family: 'Vollkorn', sans-serif;
+}
+
+input {
     font-family: 'Vollkorn', sans-serif;
 }
 
@@ -314,6 +318,49 @@ main {
 }
 /*#endregion Temples*/
 
+/*#region Registration*/
+.reg-title {
+    font-size: var(--ExtraLarge);
+}
+
+.form {
+    background-color: var(--DarkPurple);
+    width: 35%;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    padding:25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap:15px;
+}
+
+label {
+    font-size: var(--Smallest);
+}
+
+input {
+    background-color: var(--DarkGray);
+    color: var(--WhiteEgg);
+}
+
+input::placeholder {
+    color: var(--LightGray);
+    font-family: 'Vollkorn', sans-serif;
+}
+
+form textarea {
+    width: 100%;
+    height: 150px;
+
+    background-color: var(--DarkGray);
+    color: var(--WhiteEgg);
+}
+/*#endregion Registration*/
 
 /*#region Services*/
 .services-title {
