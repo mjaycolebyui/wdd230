@@ -1,0 +1,266 @@
+:root{
+    /*Colors*/
+    --DarkPurple: #2F2536;
+    --LightPurple: #BDBDFF;
+    --WhiteEgg: #FAF5F8;
+    --LightGray:#919191;
+    --DarkGray:#1F1F1F;
+
+    /*FontSizes*/
+    --Smallest: 10pt;
+    --Small: 16pt;
+    --Medium:18pt;
+    --Medium-Small:17pt;
+    --Large:22pt;
+    --ExtraLarge:36pt;
+}
+
+h1, h2, h3, h4 {
+    color:var(--WhiteEgg);
+}
+
+h1 {
+    margin: auto;
+    font-size: var(--ExtraLarge);
+    font-family: 'Dancing Script', cursive;
+}
+
+h2, h3, p, a {
+    color:var(--WhiteEgg);
+    font-weight:bold;
+    font-family: 'Vollkorn', sans-serif;
+}
+
+h2 {
+    font-size: var(--Large);
+
+}
+
+h3 {
+    font-size: var(--Medium);
+}
+
+h4 {
+    font-size: var(--Medium-Small);
+}
+
+p {
+    font-size: var(--Small);
+}
+
+/*#region Header*/
+
+header {
+    display: flex;
+    height:150px;
+    background-color: var(--DarkPurple);
+}
+
+.logo{
+    margin: auto;
+}
+
+.logo img{
+    height: 125px;
+}
+
+nav {
+    margin: auto;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+
+    font-size: var(--Medium);
+    font-weight: bold;
+
+    color:var(--WhiteEgg);
+}
+
+nav a:hover{
+    background-color: var(--WhiteEgg);
+    color:var(--DarkPurple);
+    transition: .25s;
+    border-radius: 15px;
+}
+
+/*#endregion Header*/
+
+
+/*#region Main*/
+main {
+    background-color: var(--DarkGray);
+    padding:10px;
+}
+/*#endregion Main*/
+
+
+/*#region Home*/
+main {
+    position: relative;
+    text-align: center;
+}
+
+.home-background {
+    max-width: 100%;
+    max-height: 1000px;
+    filter: brightness(50%);
+    margin:auto;
+}
+
+.find-hotels {
+    height: 10%;
+    width: 50%;
+    background-color: var(--WhiteEgg);
+    border-radius: 15px;
+
+    position: absolute;
+    top:10%;
+    left:25%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hotel-search {
+    margin-left: 20px;
+}
+
+.hotel-search input {
+    color:var(--LightGray);
+    font-family: 'Vollkorn', sans-serif;
+    font-size: var(--Small);
+    border: none;
+    background-color: var(--WhiteEgg);
+    width: 250%;
+}
+
+.search-button button {
+    width: 100px;
+    height: 50px;
+
+    margin-right: 20px;
+
+    font-family: 'Vollkorn', sans-serif;
+    font-size: var(--Medium-Small);
+
+    background-color: var(--DarkGray);
+    color: var(--WhiteEgg);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    transition: .25s;
+}
+
+.search-button button:hover {
+    cursor: pointer;
+    background-color: var(--WhiteEgg);
+    color: var(--DarkGray);
+    transition: .25s;
+    font-weight: bold;
+}
+
+.book-now {
+    position: absolute;
+
+    left: 25%;
+    bottom: 40%;
+}
+
+.book-now h3 {
+    font-family: 'Vollkorn', sans-serif;
+    font-size: var(--ExtraLarge);
+}
+
+.book-button {
+    text-align: left;
+}
+
+.book-button button {
+    width: 200px;
+    height: 75px;
+
+    font-family: 'Vollkorn', sans-serif;
+    font-size: var(--Medium-Small);
+    color: var(--WhiteEgg);
+
+    background-color: var(--DarkPurple);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    transition: .25s;
+}
+
+.book-button button:hover {
+    cursor: pointer;
+    background-color: var(--WhiteEgg);
+    color: var(--DarkPurple);
+    transition: .25s;
+    font-weight: bold;
+}
+
+.spotlight {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.temple {
+    max-width: 50%;
+}
+
+.temple img {
+    max-width: 50%;
+}
+
+.weather {
+    margin-right: 15%;
+}
+/*#endregion*/
+
+
+/*#region Footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    height:150px;
+    background-color: var(--DarkPurple);
+
+    position: relative;
+    bottom:0;
+    width: 100%;
+}
+
+.contact-info p {
+    margin-left: 120px;
+    font-size: var(--Smallest);
+}
+
+.social {
+    width: 10%;
+    display: flex;
+    column-gap: 20px;
+}
+
+.footer-info p {
+    margin-right: 120px;
+    font-size: var(--Smallest);
+}
+
+.footer-info p:hover {
+    cursor: pointer;
+}
+/*#endregion Footer*/

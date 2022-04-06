@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Final project for Michael Coleman in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+
+    <title>Temple Inn and Suites - Home</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/temple-logo.jpg" alt="Logo">
+        </div>
+        <h1>Temple Inn and Suites</h1>
+        <nav>
+            <ul>
+                <li><a style="background-color: white; border-radius: 15px; color: #2F2536;" href="index.html">Home</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="temple.html">Temples</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img class="home-background" src="images/Home/stock-hotel.jpg" alt="Stock Hotel Photo">
+        <div class="find-hotels">
+            <div class="hotel-search">
+                <input type="text" placeholder="Start typing a location..."></input>
+            </div>
+            <div class="search-button">
+                <button>Search</button>
+            </div>
+        </div>
+        <div class="book-now">
+            <h3>
+                Your Next Adventure
+            </h3>
+            <div class="book-button">
+                <button>Book Now</button>
+            </div>
+        </div>
+        <div class="spotlight">
+            <div class="temple">
+                <h2>    
+                    Temple of the Week: Ogden, Utah
+                </h2>
+                <img src="images/Temples/ogden.jpg" alt="Ogden Temple">
+            </div>
+            <div class="weather">
+                <div class="weather-header">
+                    <h2>
+                        Weather
+                    </h2>
+                    <img class="weather-icon" src="" alt="Weather Icon">
+                    <h2>
+                        <span class="condition">Windy</span>
+                    </h2>
+                </div>
+
+                <p>
+                    Temperature: <span class="temp">36</span> F
+                </p>
+                <p>
+                    Wind speed: <span class="speed">5</span> mph
+                </p>
+                <p>
+                    Feels like: <span class="chill"></span>
+                </p>
+            </div>
+        </div>
+        <div class="temple-images">
+
+        </div>
+    </main>
+
+    <footer>
+            <div class="contact-info">
+                <p>1-800-123-456</p>
+                <p>4800 Montgomery Ln #300, Bethesda, MD 20814 <a href="https://goo.gl/maps/GZr6uGWkybhpnoE38" target="_blank" rel="noreferrer noopener"> (Map It)</a></p>
+            </div>
+            <div class="social">
+                <img src="images/facebook_logo.png" alt="Facebook Logo">
+                <img src="images/youtube_logo.png" alt="YouTube Logo">
+            </div>
+            <div class="footer-info">
+                <p>
+                    Customer Reviews
+                </p>
+                <p>
+                    FAQ
+                </p>
+                <p>
+                    Locations
+                </p>
+            </div>
+    </footer>
+
+    <script type="text/javascript" src="js/weather.js"></script>
+    <script type="text/javascript" src="js/temple-list.js"></script>
+</body>
+</html>
