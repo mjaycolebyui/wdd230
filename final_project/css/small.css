@@ -1,0 +1,189 @@
+@media only screen and (max-width: 49.9em) {
+    :root{
+        /*Colors*/
+        --DarkPurple: #2F2536;
+        --LightPurple: #BDBDFF;
+        --WhiteEgg: #FAF5F8;
+        --LightGray:#919191;
+        --DarkGray:#1F1F1F;
+    
+        /*FontSizes*/
+        --Smallest: 10pt;
+        --Small: 16pt;
+        --Medium:18pt;
+        --Medium-Small:17pt;
+        --Large:22pt;
+        --ExtraLarge:36pt;
+    }
+    
+    h1 {
+        font-size: var(--Medium);
+    }
+    
+    h2 {
+        font-size: var(--Medium);    
+    }
+    
+    h3 {
+        font-size: var(--Medium-Small);
+    }
+    
+    h4 {
+        font-size: var(--Small);
+    }
+    
+    p {
+        font-size: var(--Smallest);
+    }
+    
+    /*#region Header*/
+    
+    header {
+        flex-direction: column;
+    }
+    
+    .logo img{
+        height: 75px;
+    }
+    
+    nav a {    
+        font-size: var(--Smallest);
+        height: 10px;
+    }
+    
+    nav a:hover{
+        background-color: var(--WhiteEgg);
+        color:var(--DarkPurple);
+        transition: .25s;    
+    }
+    
+    /*#endregion Header*/
+    
+    
+    /*#region Main*/
+    body {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+        max-width: 98%;
+    }
+    /*#endregion Main*/
+    
+    
+    /*#region Home*/
+    
+    .find-hotels {
+        height: 4%;
+        width: 70%;
+
+        top:70px;
+        left:15%;
+    }
+    
+    .hotel-search {
+        margin-left: 15px;
+    }
+    
+    .hotel-search input {
+        width: 100%;
+    }
+    
+    .search-button button {
+        width: 50px;
+        height: 35px;
+    
+        margin-right: 10px;
+    
+        font-size: var(--Smallest);
+    }
+    
+    .book-now {    
+        left: 15%;
+        top: 180px;
+    }
+    
+    .book-now h3 {
+        font-size: var(--Small);
+    }
+    
+    .book-button button {
+        width: 150px;
+        height: 50px;
+    
+        font-size: var(--Small);
+    }
+    
+    .spotlight {
+        flex-direction: column;
+        row-gap: 100px;
+    }
+    
+    .temple {
+        max-width: 80%;
+    }
+    
+    .temple img {
+        max-width: 70%;
+    }
+
+    .temple-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /*#endregion*/
+    
+    /*#region Temples*/
+    .temples-title {
+        font-size: var(--Large);
+    }
+    
+    .temple-page-list {
+        width: 100%;
+        grid-template-columns: 100%;
+    }
+    /*#endregion Temples*/
+    
+    /*#region Services*/
+    .services-title {
+        font-size: var(--Large);
+    }
+
+    .amenities {
+        flex-direction: column;
+    }
+    
+    .special-amenities {
+        max-width: 100%;
+    }
+    
+    .free-amenities {
+        max-width: 100%;
+    }
+
+    .suite-options {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .contact-comments textarea {
+        width:80%;
+    }
+    /*#endregion Services*/
+    
+    /*#region Footer*/
+    .contact-info p {
+        margin-left: 10px;
+    }
+    
+    .social {
+        width: 30%;
+        display: flex;
+        column-gap: 0px;
+    }
+    
+    
+    .footer-info p {
+        margin-right: 10px;
+    }
+    /*#endregion Footer*/
+    
+}

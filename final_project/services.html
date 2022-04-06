@@ -6,6 +6,8 @@
     <meta name="description" content="Final project for Michael Coleman in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
 
     <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,6 +69,30 @@
             <h3>
                 Receptions
             </h3>
+            <div class="reception-info">
+                <div class="reception-commodities">
+                    <h4>
+                        Commodities
+                    </h4>
+                    <ul>
+                        <li>Fully serviceable banquet hall</li>
+                        <li>LDS-Approved DJ on call</li>
+                        <li>Large, Celestial suites for families</li>
+                        <li>Distraction crew to help the couple get off onto their honeymoon</li>
+                        <li>Kitchen and serving staff available</li>
+                    </ul>
+                </div>
+                <div class="reception-catering">   
+                    <h4>
+                        Catering
+                    </h4>
+                    <ul>
+                        <li>LDS comfort foods - made on site</li>
+                        <li>Local ice cream shops</li>
+                        <li>Costa Vida - either catered by the company, or made on site</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="suites">
             <h3>
@@ -77,17 +103,65 @@
                     <h4>
                         The Celestial
                     </h4>
+                    <img src="images/rooms/celestial.jpg" alt="Celestial Room">
+                    <p>
+                        The best hotel suite available, our Celestial rooms are top-level comfort for families of all sizes. Three bedrooms, two bathrooms, kitchen, and dining area all make a longer stay more comfortable.
+                    </p>
                 </div>
                 <div class="suite">
                     <h4>
                         The Terrestrial
                     </h4>
+                    <img src="images/rooms/terrestrial.jpg" alt="Celestial Room">
+                    <p>
+                        Only a step down from the Celestial, the Terrestrial rooms are for those who may not be willing to pay the same price as the Celestial ones. Two bedrooms, one bathroom, and small kitchen appliances.
+                    </p>
                 </div>
                 <div class="suite">
                     <h4>
                         The Telestial
                     </h4>
+                    <img src="images/rooms/telestial.jpg" alt="Celestial Room">
+                    <p>
+                        This room is for those who want the bare minimum. Although still a hotel room at the Temple Inn and Suites, this is for those who will be traveling solo. One bedreoom, one bathroom.
+                    </p>
                 </div>
+            </div>
+            <div class="contact-us">
+                <h4>
+                    Want some more info?
+                </h4>
+                <form method="GET">
+                    <div>
+                        <label for="firstname">First Name</label>
+                        <input type="text" name="firstname" id="firstname" required>
+                    </div>
+                    <div>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lastname" id="lastname" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required placeholder="johndoe@gmail.com">
+                    </div>
+                    <div>
+                        <label for="number">Number</label>
+                        <input type="tel" name="number" id="number" required>
+                    </div>
+                    <div class="contact-comments">
+                        <div class="contact-comments">
+                            <label for="comments">Additional Comments</label>
+                        </div>
+                        <textarea type="textarea" name="comments" id="comments" maxlength="150"></textarea>
+                    </div>
+                    <div hidden class="submit-date">
+        
+                    </div>
+                    <div class="buttons">
+                        <button type="reset">Clear</button>
+                        <button type="submit" onclick="submitForm()">Submit</button>    
+                    </div>
+                </form>
             </div>
         </div>
     </main>

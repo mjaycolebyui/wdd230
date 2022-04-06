@@ -1,0 +1,122 @@
+@media only screen and (max-width: 80em) and (min-width: 50em) {
+    :root{
+        /*Colors*/
+        --DarkPurple: #2F2536;
+        --LightPurple: #BDBDFF;
+        --WhiteEgg: #FAF5F8;
+        --LightGray:#919191;
+        --DarkGray:#1F1F1F;
+    
+        /*FontSizes*/
+        --Smallest: 10pt;
+        --Small: 16pt;
+        --Medium:18pt;
+        --Medium-Small:17pt;
+        --Large:22pt;
+        --ExtraLarge:36pt;
+    }
+    
+    h1 {
+        font-size: var(--Large);
+    }
+    
+    h2 {
+        font-size: var(--Medium);    
+    }
+    
+    h3 {
+        font-size: var(--Medium-Small);
+    }
+    
+    h4 {
+        font-size: var(--Small);
+    }
+    
+    p {
+        font-size: var(--Smallest);
+    }
+    
+    /*#region Header*/
+    
+    .logo img{
+        height: 100px;
+    }
+    
+    nav a {    
+        font-size: var(--Small);
+    }
+    
+    /*#endregion Header*/
+
+    
+    /*#region Home*/    
+    .find-hotels {
+        height: 4%;
+    }
+    
+    .hotel-search input {
+        width: 100%;
+    }
+    
+    .search-button button {
+        width: 90px;
+        height: 40px;
+    }
+    
+    .book-now {
+        top:400px;
+    }
+    
+    .book-now h3 {
+        font-size: var(--Large);
+    }
+    
+    .book-button button {
+        width: 150px;
+        height: 50px;
+    }
+    
+    .temple {
+        max-width: 50%;
+        background-color: var(--DarkPurple);
+        border-radius: 15px;
+    }
+    
+    
+    .temple-list h2 {
+        font-size: var(--Large);
+    }
+    
+    .temple-img img {
+        max-width: 80%;
+    }
+    /*#endregion*/
+    
+    /*#region Temples*/
+    .temples-title {
+        font-size: var(--Large);
+    }
+    
+    .temple-page-list {
+        margin:auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 80%;
+    }
+    
+    .temple-page-listing img {
+        max-width: 300px;
+    }
+    /*#endregion Temples*/
+    
+    /*#region Footer*/    
+    .contact-info p {
+        margin-left: 100px;
+    }
+    
+    .social {
+        width: 15%;
+    }
+    /*#endregion Footer*/
+    
+}

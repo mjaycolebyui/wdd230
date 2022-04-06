@@ -429,12 +429,28 @@ form textarea {
     margin-top: 50px;
     background-color: var(--DarkPurple);
     border-radius: 15px;
-    height: 500px;
     padding: 15px;
 }
 
 .reception h3 {
     font-size: var(--Large);
+}
+
+.reception-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reception-commodities ul {
+    color: var(--WhiteEgg);
+    font-family: 'Vollkorn', sans-serif;
+    text-align: left;
+}
+
+.reception-catering ul {
+    color: var(--WhiteEgg);
+    font-family: 'Vollkorn', sans-serif;
+    text-align: left;
 }
 
 .suites { 
@@ -444,7 +460,6 @@ form textarea {
     margin-bottom: 50px;
     background-color: var(--DarkPurple);
     border-radius: 15px;
-    height: 500px;
     padding: 15px;
 }
 
@@ -452,9 +467,19 @@ form textarea {
     font-size: var(--Large);
 }
 
+.suites img {
+    max-width: 100%;
+}
+
 .suite-options {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-bottom:50px;
+}
+
+.contact-comments textarea {
+    width:20%;
 }
 /*#endregion Services*/
 
