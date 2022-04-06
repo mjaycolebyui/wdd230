@@ -6,4 +6,27 @@ fetch (templeUrl)
     })
     .then (function (jsonObject){
         console.log(jsonObject);
+        loadTempleList(jsonObject);
     })
+
+function loadTempleList(jsonObject) {
+    var templeListParent = document.querySelector('.temple-images');
+
+    for (temple in jsonObject) {
+        var templeImage = document.createElement('img');
+        templeImage.setAttribute('class', 'temple');
+
+        templeImage.src = temple.image;
+
+        templeListParent.append(templeImage);
+    }
+
+    jsonObject.forEach(element => {
+        var templeImage = document.createElement('img');
+        templeImage.setAttribute('class', 'temple');
+
+        templeImage.src = element.image;
+
+        templeListParent.append(templeImage);
+    });
+}
