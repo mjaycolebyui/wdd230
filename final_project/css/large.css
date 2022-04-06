@@ -82,19 +82,23 @@ nav a {
     font-weight: bold;
 
     color:var(--WhiteEgg);
+    border-radius: 15px;
+    transition: .25s;
 }
 
 nav a:hover{
     background-color: var(--WhiteEgg);
     color:var(--DarkPurple);
-    transition: .25s;
-    border-radius: 15px;
+    transition: .25s;    
 }
 
 /*#endregion Header*/
 
 
 /*#region Main*/
+body {
+    margin: 0px;
+}
 main {
     background-color: var(--DarkGray);
     padding:10px;
@@ -256,6 +260,29 @@ main {
     max-width: 50%;
 }
 /*#endregion*/
+
+/*#region Temples*/
+.temples-title {
+    font-size: var(--ExtraLarge);
+}
+
+.temple-page-list {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+}
+
+.temple-page-listing {
+    background-color: var(--DarkPurple);
+    border-radius: 15px;
+    padding:15px;
+}
+
+.temple-page-listing img {
+    max-width: 400px;
+}
+/*#endregion Temples*/
 
 
 /*#region Services*/

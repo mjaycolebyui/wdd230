@@ -5,52 +5,70 @@
             "location": "Ogden, Utah, United States",
             "dedicated": "18 January 1972",
             "image": "../final_project/images/Temples/ogden.jpg",
-            "address": "",
-            "phone": "",
-            "email":"",
+            "address": "350 22nd St, Ogden, UT 84401-1487, United States",
+            "phone": "(1) 801-621-6880",
+            "email":"N/A",
             "history":"",
-            "ordinance-schedule":"",
-            "session-schedule":"",
-            "closures":""
+            "ordinance-schedule":"All ordinances are available by appointment only",
+            "session-schedule":"All ordinances are available by appointment only",
+            "closures":{"0":"Saturday, 21 May 2022 (Limited Operations)",
+                "1":"Monday, 29 August 2022 - Monday, 12 September 2022",
+                "2":"Saturday, 1 October 2022",
+                "3":"Wednesday, 23 November 2022 (Limited Operations)",
+                "4":"Thursday, 24 November 2022",
+                "5":"Saturday, 24 December 2022",
+                "6":"Saturday, 31 December 2022 (Limited Operations)"
+            }
         },
         {
             "name": "St. George Utah Temple",
             "location": "St. George, Utah, United States",
             "dedicated": "Renovation",
             "image": "../final_project/images/Temples/stgeorge.jpg",
-            "address": "",
-            "phone": "",
-            "email":"",
+            "address": "250 E 400 S, St George, UT 84770-3699, United States",
+            "phone": "N/A",
+            "email":"N/A",
             "history":"",
-            "ordinance-schedule":"",
-            "session-schedule":"",
-            "closures":""
+            "ordinance-schedule":"Temple closed during renovations",
+            "session-schedule":"Temple closed during renovations",
+            "closures":{"0":"Temple closed during renovations"
+            }
         },
         {
             "name": "Papeete Tahiti Temple",
             "location": "Papeete, Tahiti, French Polynesia",
             "dedicated": "27 October 1983",
             "image": "../final_project/images/Temples/tahiti.jpg",
-            "address": "",
-            "phone": "",
-            "email":"",
+            "address": "Temple S.D.J. (Mormon), Allee Pierre Loti, Papeete, Tahiti 98716, French Polynesia",
+            "phone": "(689) 40-50-3939",
+            "email":"N/A",
             "history":"",
-            "ordinance-schedule":"",
-            "session-schedule":"",
-            "closures":""
+            "ordinance-schedule":"All ordinances are available by appointment only.",
+            "session-schedule":"All ordinances are available by appointment only.",
+            "closures":{"0":"Friday, 15 April 2022 (Limited Operations)",
+                "1":"Thursday, 26 May 2022 (Limited Operations)",
+                "2":"Wednesday, 29 June 2022",
+                "3":"Thursday, 14 July 2022",
+                "4":"Monday, 29 August 2022 - Monday, 12 September 2022",
+                "5":"Saturday, 1 October 2022 - Sunday, 2 October 2022",
+                "6":"Tuesday, 1 November 2022 (Limited Operations)"
+            }
         },
         {
             "name": "Orlando Florida Temple",
             "location": "Windermere, Florida, United States",
             "dedicated": "9 October 1994",
             "image": "../final_project/images/Temples/orlando.jpeg",
-            "address": "",
-            "phone": "",
-            "email":"",
+            "address": "9000 Windy Ridge Rd, Windermere, FL 34786-8347, United States",
+            "phone": "(1) 407-876-0022",
+            "email":"N/A",
             "history":"",
-            "ordinance-schedule":"",
-            "session-schedule":"",
-            "closures":""
+            "ordinance-schedule":"All ordinances are available by appointment only.",
+            "session-schedule":"All ordinances are available by appointment only.",
+            "closures":{"0":"Monday, 15 August 2022 - Monday, 12 December 2022",
+                "1":"Saturday, 24 December 2022",
+                "2":"Saturday, 31 December 2022"
+            }        
         }
     ]
 }
