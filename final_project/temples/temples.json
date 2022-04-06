@@ -11,6 +11,30 @@
             "location": "St. George, Utah, United States",
             "dedicated": "Renovation",
             "image": "../final_project/images/Temples/stgeorge.jpg"
+        },
+        {
+            "name": "Papeete Tahiti Temple",
+            "location": "Papeete, Tahiti, French Polynesia",
+            "dedicated": "27 October 1983",
+            "image": "../final_project/images/Temples/tahiti.jpg"
+        },
+        {
+            "name": "Orlando Florida Temple",
+            "location": "Windermere, Florida, United States",
+            "dedicated": "9 October 1994",
+            "image": "../final_project/images/Temples/orlando.jpeg"
+        },
+        {
+            "name": "Mexico City Mexico Temple",
+            "location": "México, Distrito Federal, Mexico",
+            "dedicated": "2 December 1983",
+            "image": "../final_project/images/Temples/mexico.jpg"
+        },
+        {
+            "name": "Lima Peru Temple",
+            "location": "La Molina, Lima, Peru",
+            "dedicated": "10 January 1986",
+            "image": "../final_project/images/Temples/lima.jpg"
         }
     ]
 }
