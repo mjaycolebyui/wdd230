@@ -116,13 +116,13 @@ main {
 }
 
 .find-hotels {
-    height: 10%;
+    height: 5%;
     width: 50%;
     background-color: var(--WhiteEgg);
     border-radius: 15px;
 
     position: absolute;
-    top:10%;
+    top:200px;
     left:25%;
 
     display: flex;
@@ -172,7 +172,7 @@ main {
     position: absolute;
 
     left: 25%;
-    bottom: 40%;
+    top: 500px;
 }
 
 .book-now h3 {
@@ -225,6 +225,31 @@ main {
 
 .weather {
     margin-right: 15%;
+}
+
+.temple-list {
+    margin-top: 150px;
+}
+
+.temple-list h2 {
+    margin-bottom: 50px;
+}
+
+.temple-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.temple-img {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.temple-img img {
+    max-width: 50%;
 }
 /*#endregion*/
 

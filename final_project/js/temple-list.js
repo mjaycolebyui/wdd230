@@ -5,28 +5,25 @@ fetch (templeUrl)
         return response.json();
     })
     .then (function (jsonObject){
-        console.log(jsonObject);
         loadTempleList(jsonObject);
     })
 
 function loadTempleList(jsonObject) {
     var templeListParent = document.querySelector('.temple-images');
 
-    for (temple in jsonObject) {
+    for (temple in jsonObject.temples) {
+        var newTemple = document.createElement('div');
+        newTemple.setAttribute('class', 'temple-img');
+
         var templeImage = document.createElement('img');
-        templeImage.setAttribute('class', 'temple');
+        templeImage.src = jsonObject.temples[temple].image;
 
-        templeImage.src = temple.image;
+        var templeName = document.createElement('h4');
+        templeName.textContent = jsonObject.temples[temple].name;
 
-        templeListParent.append(templeImage);
+        newTemple.append(templeImage);
+        newTemple.append(templeName);
+
+        templeListParent.append(newTemple);
     }
-
-    jsonObject.forEach(element => {
-        var templeImage = document.createElement('img');
-        templeImage.setAttribute('class', 'temple');
-
-        templeImage.src = element.image;
-
-        templeListParent.append(templeImage);
-    });
 }
