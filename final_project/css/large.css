@@ -224,7 +224,11 @@ main {
 }
 
 .weather {
-    margin-right: 15%;
+    margin-right: 10%;
+    background-color: var(--DarkPurple);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
 }
 
 .temple-list {
@@ -253,6 +257,69 @@ main {
 }
 /*#endregion*/
 
+
+/*#region Services*/
+.services-title {
+    font-size: var(--ExtraLarge);
+}
+.amenities {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.special-amenities {
+    text-align: left;
+    max-width: 40%;
+}
+
+.special-amenities h3 {
+    text-align: center;
+}
+
+.special-amenities ul {
+    text-decoration: none;
+    color: var(--WhiteEgg);
+    font-family: 'Vollkorn', sans-serif;
+}
+
+.free-amenities {
+    text-align: left;
+    max-width: 50%;
+}
+
+.free-amenities h3 {
+    text-align: center;
+}
+
+.free-amenities ul {
+    text-decoration: none;
+    color: var(--WhiteEgg);
+    font-family: 'Vollkorn', sans-serif;
+}
+
+.reception {
+    width: 80%;
+    margin:auto;
+    margin-top: 50px;
+    background-color: var(--DarkPurple);
+    border-radius: 15px;
+    height: 500px;
+    padding: 15px;
+}
+
+.suites { 
+    width: 80%;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: var(--DarkPurple);
+    border-radius: 15px;
+    height: 500px;
+    padding: 15px;
+}
+/*#endregion Services*/
 
 /*#region Footer*/
 footer {

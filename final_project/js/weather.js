@@ -5,7 +5,6 @@ fetch (requestURL)
         return response.json();
     })
     .then (function (jsonObject){
-        console.log(jsonObject);
         calcWeather(jsonObject);
     });
 
