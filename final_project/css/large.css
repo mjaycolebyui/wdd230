@@ -151,6 +151,10 @@ main {
     width: 250%;
 }
 
+.hotel-search input:focus-visible{
+    outline: none;
+}
+
 .search-button button {
     width: 100px;
     height: 50px;
@@ -218,13 +222,16 @@ main {
 .spotlight {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    column-gap: 100px;
     margin: auto;
     margin-top: 100px;
 }
 
 .temple {
     max-width: 50%;
+    background-color: var(--DarkPurple);
+    border-radius: 15px;
 }
 
 .temple img {
@@ -232,11 +239,24 @@ main {
 }
 
 .weather {
-    margin-right: 10%;
     background-color: var(--DarkPurple);
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 20px;
+    width: 300px;
+}
+
+.three-days {
+    margin-top: 25px;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-around;
+}
+
+.day-weather {
+    background-color: var(--DarkPurple);
 }
 
 .temple-list {
@@ -462,6 +482,15 @@ footer {
     width: 10%;
     display: flex;
     column-gap: 20px;
+}
+
+.social img:hover {
+    cursor: pointer;
+}
+
+.copyrights {
+    font-family: 'Vollkorn', sans-serif;
+    color: var(--WhiteEgg);
 }
 
 .footer-info p {
